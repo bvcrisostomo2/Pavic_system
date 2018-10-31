@@ -1,0 +1,21 @@
+<script src="../node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net/js/jquery.dataTables.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-bs/js/dataTables.bootstrap.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-responsive/js/dataTables.responsive.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-responsive-bs/js/responsive.bootstrap.js" charset="utf-8"></script>
+<script src="../node_modules/bootstrap-fileinput/js/fileinput.min.js" charset="utf-8"></script>
+<script src="../node_modules/jasny-bootstrap/dist/js/jasny-bootstrap.min.js" charset="utf-8"></script>
+<script src="../node_modules/jspdf/dist/jspdf.min.js" charset="utf-8"></script>
+<script src="../node_modules/pdfmake/build/pdfmake.min.js" charset="utf-8"></script>
+<script src="../node_modules/pdfmake/build/vfs_fonts.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-buttons/js/dataTables.buttons.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-buttons/js/buttons.print.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-buttons/js/buttons.flash.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-buttons/js/buttons.html5.js" charset="utf-8"></script>
+<script src="../node_modules/datatables.net-buttons/js/buttons.colVis.js" charset="utf-8"></script>
+<script src="../node_modules/html2canvas/dist/html2canvas.min.js" charset="utf-8"></script>
+<script src="../node_modules/canvasjs/dist/canvasjs.min.js" charset="utf-8"></script>
+<script src="../node_modules/canvasjs/dist/jquery.canvasjs.min.js" charset="utf-8"></script>
+
+<script src="js/scripts.js" charset="utf-8"></script>

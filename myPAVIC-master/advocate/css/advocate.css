@@ -1,0 +1,43 @@
+.bttn{
+  width: 100px;
+}
+
+img.avatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.pull-up-40{
+  position:relative;top:-40px;
+}
+
+.push-down-10{
+  position:relative;top:10px;
+}
+
+.no-padding-bottom{
+  padding-bottom: 0px;
+}
+
+.yes-padding-bottom{
+  padding-bottom: 40px;
+}
+
+.hundred-with{
+  width: 100%;
+}
+
+/*
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}*/
+
+.breadcrumb{
+  position: relative;
+  top: -20px;
+  font-size: 1.5em;
+  padding-left: 7.77%;
+}

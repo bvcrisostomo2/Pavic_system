@@ -1,0 +1,73 @@
+.landing{
+  background-image: linear-gradient(to bottom, rgba(133, 199, 242, 0.5) 0%, rgba(133, 199, 242, 0.5) 100%), url("../img/cover.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+
+.landing-text{
+    position: relative;
+    top: 100px;
+}
+.landing-text h1 {
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 80px;
+}
+
+.bttn{
+  font-family: Montserrat;
+  width: 265px;
+  margin: 40px 3px;
+  padding: 0px;
+  border: 0px;
+  background-color: #fff;
+}
+.btn img{
+  display: inline-block;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+.btn>h6{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px;
+}
+
+a:hover {
+    color: #39c;
+}
+
+.sign-up{
+    color: #39c;
+}
+.sign-up:hover, #download .sign-up:hover{
+    color: #fff;
+    background-color: #39c;
+}
+.log-in{
+    color: #c9c;
+}
+.log-in:hover, #download .log-in:hover{
+    color: #fff;
+    background-color: #c9c;
+}
+
+@media (max-width: 480px){
+  .landing{
+    height: 90vh;
+  }
+  .landing-text{
+    /*margin-bottom: 200px;*/
+  }
+  .landing-text h1 {
+    font-size: 52px;
+  }
+  .bttn{
+    margin-bottom: -20px;
+  }
+}

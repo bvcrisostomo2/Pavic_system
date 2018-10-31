@@ -1,0 +1,3 @@
+Setup of db:
+1. Open the db folder
+2. Import the db files in MySQL

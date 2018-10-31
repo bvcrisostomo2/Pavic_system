@@ -1,0 +1,44 @@
+<td>
+  <ul>
+    <?php
+    $siblings = explode(";", $children_info[$i]['siblings']);
+    for ($j=0; $j < sizeof($siblings) - 1; $j++) {
+    ?>
+    <li><?php echo $siblings[$j]; ?></li>
+    <?php } ?>
+  </ul>
+</td>
+<td><?php echo $children_info[$i]['birthday']; ?></td>
+<td><?php echo $children_info[$i]['sex']; ?></td>
+<td><?php echo $children_info[$i]['school']; ?></td>
+<td><?php echo $children_info[$i]['school_address']; ?></td>
+<td><?php echo $children_info[$i]['grade_level']; ?></td>
+<th><?php echo $children_info[$i]['cause_of_blindness']; ?></td>
+<td><?php echo $children_info[$i]['vision_left']; ?></td>
+<td><?php echo $children_info[$i]['vision_right']; ?></td>
+<td><?php echo $children_info[$i]['additional_disabilities']; ?></td>
+<td>
+  <ul>
+    <?php
+    $special_needs_owned = explode(";", $children_info[$i]['special_needs_owned']);
+    for ($j=0; $j < sizeof($special_needs_owned) - 1; $j++) {
+    ?>
+    <li><?php echo $special_needs_owned[$j]; ?></li>
+    <?php } ?>
+  </ul>
+</td>
+<td>
+  <ul>
+    <?php
+    $learning_tools_owned = explode(";", $children_info[$i]['learning_tools_owned']);
+    for ($j=0; $j < sizeof($learning_tools_owned) - 1; $j++) {
+    ?>
+    <li><?php echo $learning_tools_owned[$j]; ?></li>
+    <?php } ?>
+  </ul>
+</td>
+<td><?php echo $children_info[$i]['physical_therapy']; ?></td>
+<td><?php echo $children_info[$i]['occupational_therapy']; ?></td>
+<td><?php echo $children_info[$i]['speech_therapy']; ?></td>
+<td><?php echo $children_info[$i]['other_needs']; ?></td>
+<td><img src="<?php echo "data:image/png;base64, ".base64_encode($children_info[$i]['medical_history']); ?>" alt="" width="200px"></td>
